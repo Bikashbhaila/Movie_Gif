@@ -51,7 +51,7 @@ function getMovies(e) {
 
     // create URL to make API calls
     const apiKey = "f192a57a";
-    const URL = `http://www.omdbapi.com/?apikey=${apiKey}&s=${searchKeyWord}`;
+    const URL = `https://www.omdbapi.com/?apikey=${apiKey}&s=${searchKeyWord}`;
     console.log(URL);
 
     // fetch data using the URL above, parse to JSON, and storing the resulting data (res.Search)
